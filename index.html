@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gara - Sahumerios Artesanales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="/Multimedia/Logo Gara.png" alt="Logo Gara" width="120px" height="120px">
+        
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#resenas">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidos a Gara</h2>
+            <p>Sahumerios 100% naturales y accesorios para armonizar tus espacios</p>
+
+            <div class="video-container">
+                <iframe width="236" height="420" src="/Multimedia/PortaSahumerio_VideoManito.mp4" title="Video explicativo" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="productos" class="productos-section">
+            <h2>Nuestros Productos</h2>
+            <div class="productos-container">
+
+                <article class="card">
+                    <img src="/Multimedia/Sahumerio_Largo.jpg" alt="Sahumerio Largo">
+                    <h3>Sahumerio Largo</h3>
+                    <p>Relajante e ideal para momentos de meditacion</p>
+                    <span class="precio">$2.000</span>
+                    <button class="btn">Comprar</button>
+                </article>
+
+                <article class="card">
+                    <img src="/Multimedia/PortaSahumerio_Sol.JPG" alt="Portasahumerio">
+                    <h3>Portasahumerio</h3>
+                    <p>Hecho a mano en ceramica esmaltada</p>
+                    <span class="precio">$3.200</span>
+                    <button class="btn">Comprar</button>
+                </article>
+
+                <article class="card">
+                    <img src="/Multimedia/Sahumerio_Tibet.jpg" alt="Sahumerio Tibetano">
+                    <h3>Sahumerio Tibetano</h3>
+                    <p>Limpieza energetica profunda para el hogar</p>
+                    <span class="precio">$3.000</span>
+                    <button class="btn">Comprar</button>
+                </article>
+
+                <article class="card">
+                    <img src="/Multimedia/Sahumerio_Corto.jpg" alt="Sahumerio Corto">
+                    <h3>Sahumerio Corto</h3>
+                    <p>Limpieza energetica profunda para el hogar</p>
+                    <span class="precio">$1.500</span>
+                    <button class="btn">Comprar</button>
+                </article>
+
+            </div>
+        </section>
+        
+        <section id="resenas" class="resenas-section">
+            <h2>Lo que dice nuestros clientes</h2>
+            <div class="resenas-grid">
+
+                <article class="resena-card">
+                    <p>"Los aromas son super naturales y duran muchisimo."</p>
+                    <h4>- Mariana G.</h4>
+                </article>
+
+                <article class="resena-card">
+                    <p>"El portashumerio llego perfecto, excelente calidad."</p>
+                    <h4>- Lucas M.</h4>
+                </article>
+
+                <article class="resena-card">
+                    <p>"Atencion rapida y muy buena variedad de sahumerios."</p>
+                    <h4>- Sofia R.</h4>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto-section">
+            <h2>Contacto</h2>
+            <p>¿Tenes alguna consulta? Escribinos y te responderemos a la brevedad.</p>
+            <form action="https://formspree.io/f/xnparwqz" method="POST" class="contacto-form">
+
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo Electronico</label>
+                    <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Escribe tu mensaje"></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Aura & Humo. Todos los derechos reservados</p>
+    </footer>
+    
+</body>
+</html>
