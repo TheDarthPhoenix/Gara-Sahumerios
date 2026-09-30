@@ -1,6 +1,6 @@
-# Aura & Humo - Tienda de Sahumerios y Accesorios
+# Gara - Tienda de Sahumerios y Accesorios
 
-Este proyecto es una propuesta web para **Aura & Humo**, un emprendimiento enfocado en la comercialización de sahumerios artesanales, elementos de defumación y accesorios.
+Este proyecto es una propuesta web para **GARA**, un emprendimiento enfocado en la comercialización de sahumerios artesanales, elementos de defumación y accesorios.
 
 ## Propósito de la página
 
